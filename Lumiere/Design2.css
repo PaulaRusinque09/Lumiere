@@ -1,0 +1,611 @@
+@media screen and (max-width:980px){
+    @font-face {
+        font-family: Gistesy;
+        src: url(Gistesy.ttf);
+      }
+      body{
+        font-family: Alice-regular;
+        background-color: #FFF9F3;
+        margin: 0;
+      }
+      header{
+        height: 75px;
+        width: 100%;
+        background-color: #D0B991;
+        position: relative;
+        margin: 0;
+      }
+      .container {
+        position: relative;
+        left: 0%;
+        top: 0%;
+        padding: 4px;
+      }
+    
+      input {
+        outline: none;
+        box-sizing: border-box;
+        height: 23px;
+        width: 21px;
+        padding: 0px;
+        color: #5D7251;
+        border-radius: 50px;
+        font-size: 15px;
+        border: 1px solid #D0B991;
+        transition: all .5s ease;
+      }
+    
+      ::placeholder {
+        color: #5D7251;
+      }
+    
+      .btn {
+        position: absolute;
+        top: 3%;
+        right: 3px;
+        width: 10px;
+        width: 50px;
+        height: 50px;
+        background: #D0B991;
+        line-height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+      }
+    
+      .btn i {
+        font-size: 10px;
+        color: #D0B991;
+        line-height: 0px;
+        transition: all .7s ease;
+      }
+    
+      .container:hover input {
+        width: 220px;
+      }
+    
+      .container:hover i{
+        transform: rotate(-360deg);
+      }
+    
+      .btn:hover{
+        background: #5D7251;
+      }
+      .logo img{
+        width:40%;
+        margin: 0;
+      }
+      header span {
+        display: flex;
+        justify-content: space-between;
+      }
+      header ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+      }
+      .center{
+        display: flex;
+        position: relative;
+        top: 70px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+      } 
+      .center img{
+        width: 100%;
+      }
+      .kids{
+        justify-content: center;
+      }
+      h1{
+    
+        text-align: center;
+        color: #5D7251;
+        font-size: 500%;
+        font-weight: 125;
+        position: relative;
+      }
+      main nav ul{
+        display: flex;
+        color: #5D7251;
+        list-style: none;
+        justify-content: space-between;
+      }
+      li{
+        color: #5D7251;
+        font-size: 2rem;
+      }
+      footer{
+        background-color: #D0B991;
+        height: 50px;
+        width: 100%;
+      }
+      .txt{
+        position: relative;
+        bottom: 556px;
+        left: -15%;
+      }
+      .esp{
+        justify-content: space-around;
+      }
+      .tamhoja{
+        width: 500px;
+      }
+      .go-top{
+        position: fixed;
+        left: 95%;
+        bottom: 4rem;
+        right: 4rem;
+        width: 6.6rem;
+        height: 6.6rem;
+        z-index: -1;
+      }
+      
+      .botton{
+        width: 0rem;
+        height: 0rem;
+        background: #5D7251;
+        border-radius: 50%;
+        cursor: pointer;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+      .botton i{
+        position: absolute;
+        font-size: 1,7rem;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        color: #D0B991;
+        transition: .2s;
+      }
+      
+      
+      .show{
+        z-index: 10;
+      }
+      
+      .show botton{
+        animation: popup .3s ease-in-out;
+        width: 6.6rem;
+        height: 6.6rem;
+        z-index: 11;
+      }
+      
+      .show i{
+        transform: translate(-50%, -50%) scale(1);
+      }
+      
+      @keyframes popup{
+        0%{
+          width: 0rem;
+          height: 0rem;
+        }
+        50%{
+          width: 8rem;
+          height: 8rem;
+        }
+        100%{
+          width: 6.6rem;
+          height: 6.6rem;
+        }
+      }
+      .Ropa{
+        display: flex;
+        color: #5D7251;
+        position: relative;
+        padding-top: 5%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .Ropa img{
+        width: 175%;
+        position: relative;
+        right: 35%;
+        top: 120px;
+      }
+      .Ropa1{
+        display: flex;
+        color: #5D7251;
+        position: relative;
+        padding-top: 5%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .Ropa1 img{
+        width: 175%;
+        position: relative;
+        right: 35%;
+        top: 74px;
+      }
+      .Ropa2{
+        display: flex;
+        color: #5D7251;
+        position: relative;
+        padding-top: 5%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .Ropa2 img{
+        width: 175%;
+        position: relative;
+        right: 50%;
+        top: 120px;
+      }
+      .Ropa3{
+        display: flex;
+        color: #5D7251;
+        position: relative;
+        padding-top: 5%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .imgs img{
+        width: 200%;
+        position: relative;
+        right: 50%;
+        top: 152px;
+      }
+      .imgn img{
+        width: 0%;
+        position: absolute;
+      }
+      .title{
+        text-align: center;
+        font-size: 250%;
+        font-weight: normal;
+        position: absolute;
+        top: 10%;
+        left: 32%;
+      }
+      .title1{
+        text-align: center;
+        font-size: 250%;
+        font-weight: normal;
+        position: absolute;
+        top: 10%;
+        left: 37%;
+      }
+      .title3{
+        text-align: center;
+        font-size: 250%;
+        font-weight: normal;
+        position: absolute;
+        top: 10%;
+        left: 27%;
+      }
+      .descrption{
+        font-size: 0%;
+      }
+      .descrption1{
+        text-align: left;
+        position: relative;
+        font-size: 150%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+      }
+      .descrption3{
+        text-align: left;
+        position: relative;
+        font-size: 150%;
+        padding-bottom: 10%;
+        padding-top: 25%;
+      }
+      .tamLet{
+        text-align: left;
+        font-size: 150%;
+        font-weight: normal;
+      }
+      .Comprar {
+        font-family: Alice-regular;
+        background-color: #D0B991;
+        padding: 22px 100px;
+        text-align: center;
+        color: #f5f5f5;
+        font-size: 27px;
+        border-radius: 10px;
+        border: 2px #D0B991 solid;
+      }
+      .boton{
+        text-align: center;
+        position:relative;
+        padding-top: 8%;
+      }
+      .tamCosto{
+        text-align: left;
+        font-size: 200%;
+        font-weight: normal;
+        position:relative;
+        padding-bottom: 10%;
+      }
+      .hojaR img{
+        width:0%;
+      }
+      .hojaR1 img{
+        width: 15%;
+        position: absolute;
+        top: 850px;
+      }
+      .hojaR2 img{
+        width: 15%;
+        position: absolute;
+        top: 1050px;
+        right: 0px;
+      }
+      .Kids1{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 3%;
+        flex-direction: column;
+        padding-left: 15%;
+      }
+      .Kids1 img{
+        width: 80%;
+        position: relative;
+        top: 75px; 
+      }
+      .hojak img{
+        width: 15%;
+        position: absolute;
+        margin-left: 6%;
+        top: 800px;
+      }
+      .hojaka img{
+        width: 15%;
+        position: absolute;
+        margin-left: 6%;
+        top: 824px;
+      }
+      .hojak1 img{
+        width: 15%;
+        position: absolute;
+        margin-left: 77%;
+        top: 670px;
+      }
+      .hojak1a img{
+        width: 15%;
+        position: absolute;
+        margin-left: 77%;
+        top: 700px;
+      }
+      .Kids1 p{
+        font-size: 300%;
+        color: #f5f5f5;
+        position: absolute;
+        left: 35%;
+        top: 5%; 
+      }
+      .Kids1 p1{
+        font-size: 270%;
+        color: #f5f5f5;
+        position: absolute;
+        left: 35%;
+        top: 95%;
+      }
+      .Kids2{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 3%;
+        flex-direction: column;
+        padding-left: 15%;
+      }
+      .Kids2 img {
+        width: 80%;
+        position: relative;
+        top: 75px;
+    }
+      .Kids2 p{
+        font-size: 300%;
+        color: #f5f5f5;
+        position: absolute;
+        left: 35%;
+        top: 39%; 
+      }
+      .Kids2 p1{
+        font-size: 300%;
+        color: #f5f5f5;
+        position: absolute;
+        left: 36%;
+        top: 51%;
+      }
+      .Return{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -5%;
+      }
+      .hojaD img{
+        width:0%;
+      }
+      .hojaD1 img{
+        width: 15%;
+        position: absolute;
+        top: 600px;
+        left:0px
+      }
+      .Devolver img{
+        width:12%;
+        position: relative;
+        left: 15%;
+        top: -50%;
+      }
+      .hoja1 img{
+        width: 15%;
+        position:absolute; 
+        left: 0%;
+        top: 80%;
+      }
+      .hoja1a img{
+        width: 15%;
+        position:absolute; 
+        left: 0%;
+        top: 0%;
+      }
+      .hoja2 img{
+        width: 15%;
+        position:absolute; 
+        right: 0%;
+        top: 40%;
+      }
+      .hoja2a img{
+        width: 15%;
+        position:absolute; 
+        right: 0%;
+        top: 40%;
+      }
+      .title2{
+        margin: 0;
+      }
+      .title2 a{
+        color: #5D7251;
+        font-size: 3rem;
+        font-weight: normal;
+        position: relative;
+        top: 50px;
+        left: -27px;
+      }
+      h2{
+        display: flex;
+        justify-content: center;
+        color: #5D7251;
+        font-size: 2rem;
+        font-weight: normal;
+        position: relative;
+        top: -50px;
+      }
+      .hoja3 img{
+        width:8%;
+        position: absolute;
+        margin-left: 92%;
+        top:92%
+      }
+      .hoja4 img{
+        width:8%;
+        position: absolute;
+        top:92%
+      }
+      h3{
+        display: flex;
+        justify-content: center;
+        color: #5D7251;
+        font-size: 2rem;
+        font-weight: normal;
+        position: relative;
+        top: -57px;
+        left: -47px;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      .hoja5 img{
+        width:8%;
+        position: absolute;
+        margin-left: 550px;
+        top: 95px;
+      }
+      .hoja6 img{
+        width:8%;
+        position: absolute;
+        margin-left: 800px;
+        top: 95px;
+      }
+      .hoja7 img{
+        width:8%;
+        position: absolute;
+        margin-left: 527px;
+        top: 95px;
+      }
+      .hoja8 img{
+        width:8%;
+        position: absolute;
+        margin-left: 817px;
+        top: 95px;
+      }
+      h4{
+        display: flex;
+        justify-content: center;
+        color: #5D7251;
+        font-size: 2rem;
+        font-weight: normal;
+        position: relative;
+        top: -120px;
+      }
+      h5{
+        display: flex;
+        justify-content: center;
+        color: #5D7251;
+        font-size: 2rem;
+        font-weight: normal;
+        position: relative;
+        top: -126px;
+        left: -47px;
+      }
+      .hoja9 img{
+        width: 8%;
+        position: absolute;
+        margin-left: 35%;
+        top: 95px;
+      }
+      .hoja10 img{
+        width: 8%;
+        position: absolute;
+        left: 54%;
+        top: 95px;
+      }
+      h6{
+        display: flex;
+        justify-content: center;
+        color: #5D7251;
+        font-size: 3rem;
+        font-weight: normal;
+        position: relative;
+        top: 50px;
+        left: -27px;
+        margin: 0;
+      }
+      .center1{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 38px;
+        padding-left: 39px;
+        margin: 0;
+      } 
+      .hoja11 img{
+        width: 8%;
+        position: absolute;
+        margin-left: 37%;
+        top: 95px;
+      }
+      .hoja12 img{
+        width: 8%;
+        position: absolute;
+        left: 52%;
+        top: 95px;
+      }
+      h7{
+        display: flex;
+        justify-content: center;
+        color: #5D7251;
+        font-size: 2rem;
+        font-weight: normal;
+        position: relative;
+        top: -40px;
+        left: -11px
+      }
+      h8{
+        display: flex;
+        justify-content: center;
+        color: #5D7251;
+        font-size: 2rem;
+        font-weight: normal;
+        position: relative;
+        top: -46px;
+        left: -14px;
+      }
+  }
